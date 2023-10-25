@@ -12,7 +12,9 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 
 ### HTML
 
-| Teorí­a                          | Contenido                                                                                      |
-| -------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [Clase 1](RAMPUP/html/clase1.md) | Encabezados, párrafos, formato de texto, listas, multimedia etiquetas semánticas y formularios |
-| [Clase 2](RAMPUP/css/clase1.md)  | Selectores, modelo de cajas, propiedades de texto y flexbox                                    |
+| Teoría                           | Contenido                                                                                      | Ejercicios                                           |
+| -------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Clase 1](RAMPUP/html/clase1.md) | Encabezados, párrafos, formato de texto, listas, multimedia etiquetas semánticas y formularios | [Ejercicios Clase 1](RAMPUP/html/ejercicios.md)      |
+| [Clase 2](RAMPUP/css/clase1.md)  | Selectores, modelo de cajas, propiedades de texto y flexbox                                    | [Ejercicios Clase 2](RAMPUP/css/ejerciciosClase1.md) |
+| [Clase 3](RAMPUP/css/clase2.md)  | Transform, transiciones y animaciones                                                          | [Ejercicios Clase 3](RAMPUP/css/ejerciciosClase2.md) |
+| [Recursos](RAMPUP/recursos.md)   | Transform, transiciones y animaciones                                                          | -                                                    |
