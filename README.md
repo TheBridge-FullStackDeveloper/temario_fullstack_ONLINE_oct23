@@ -27,3 +27,6 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | [Clase 2](RAMPUP/js/clases/clase2.md) | Operadores                 | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs1.md) |
 | [Clase 3](RAMPUP/js/clases/clase3.md) | Arrays                     | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs1.md) |
 | [Clase 4](RAMPUP/js/clases/clase4.md) | Bucles                     | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs1.md) |
+| [Clase 5](RAMPUP/js/clases/clase5.md) | Funciones                  | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs1.md) |
+| [Clase 6](RAMPUP/js/clases/clase6.md) | Condicionales              | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs2.md) |
+| [Clase 7](RAMPUP/js/clases/clase7.md) | Objetos                    | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs2.md) |
