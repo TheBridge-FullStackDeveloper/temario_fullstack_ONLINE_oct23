@@ -30,3 +30,10 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | [Clase 5](RAMPUP/js/clases/clase5.md) | Funciones                  | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs1.md) |
 | [Clase 6](RAMPUP/js/clases/clase6.md) | Condicionales              | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs2.md) |
 | [Clase 7](RAMPUP/js/clases/clase7.md) | Objetos                    | [Ejercicios](RAMPUP/js/ejercicios/ejerciciosJs2.md) |
+
+### JS Avanzado | Sprint 3
+
+| Teoría                                    | Contenido | Ejercicios                                                 |
+| ----------------------------------------- | --------- | ---------------------------------------------------------- |
+| [Clase 1](JSAdv/clases/sprint3/clase1.md) | DOM       | [Ejercicios](JSAdv/ejercicios/sprint3/ejerciciosJsAdv1.md) |
+| [Clase 2](JSAdv/clases/sprint3/clase2.md) | Nodos     | [Ejercicios](JSAdv/ejercicios/sprint3/ejerciciosJsAdv1.md) |
