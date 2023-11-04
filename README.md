@@ -37,3 +37,4 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | ----------------------------------------- | --------- | ---------------------------------------------------------- |
 | [Clase 1](JSAdv/clases/sprint3/clase1.md) | DOM       | [Ejercicios](JSAdv/ejercicios/sprint3/ejerciciosJsAdv1.md) |
 | [Clase 2](JSAdv/clases/sprint3/clase2.md) | Nodos     | [Ejercicios](JSAdv/ejercicios/sprint3/ejerciciosJsAdv1.md) |
+| [Clase 3](JSAdv/clases/sprint3/clase3.md) | Eventos   | [Ejercicios](JSAdv/ejercicios/sprint3/ejerciciosJsAdv1.md) |
