@@ -41,6 +41,14 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 
 ### JS Avanzado | Sprint 4
 
-| Teoría                                    | Contenido                                          | Ejercicios |
-| ----------------------------------------- | -------------------------------------------------- | ---------- |
-| [Clase 1](JSAdv/clases/sprint4/clase1.md) | Funciones puras, arrow function y métodos de array | []()       |
+| Teoría                                    | Contenido                                          | Ejercicios                                                 |
+| ----------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
+| [Clase 1](JSAdv/clases/sprint4/clase1.md) | Funciones puras, arrow function y métodos de array | [Ejercicios](JSAdv/ejercicios/sprint4/ejerciciosJsAdv2.md) |
+| [Clase 2](JSAdv/clases/sprint4/clase2.md) | Fetch                                              | [Ejercicios](JSAdv/ejercicios/sprint4/ejerciciosJsAdv2.md) |
+
+### JS Avanzado | Sprint 5
+
+| Teoría                                    | Contenido       | Ejercicios                                                 |
+| ----------------------------------------- | --------------- | ---------------------------------------------------------- |
+| [Clase 1](JSAdv/clases/sprint5/clase1.md) | Destructuring   | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
+| [Clase 2](JSAdv/clases/sprint5/clase2.md) | Spread operator | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
