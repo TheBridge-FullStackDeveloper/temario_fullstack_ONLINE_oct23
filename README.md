@@ -48,8 +48,9 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 
 ### JS Avanzado | Sprint 5
 
-| Teoría                                    | Contenido       | Ejercicios                                                 |
-| ----------------------------------------- | --------------- | ---------------------------------------------------------- |
-| [Clase 1](JSAdv/clases/sprint5/clase1.md) | Destructuring   | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
-| [Clase 2](JSAdv/clases/sprint5/clase2.md) | Spread operator | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
-| [Clase 3](JSAdv/clases/sprint5/clase3.md) | forEach         | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
+| Teoría                                    | Contenido                     | Ejercicios                                                 |
+| ----------------------------------------- | ----------------------------- | ---------------------------------------------------------- |
+| [Clase 1](JSAdv/clases/sprint5/clase1.md) | Destructuring                 | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
+| [Clase 2](JSAdv/clases/sprint5/clase2.md) | Spread operator               | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
+| [Clase 3](JSAdv/clases/sprint5/clase3.md) | forEach                       | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
+| [Clase 4](JSAdv/clases/sprint5/clase4.md) | localStorage y sessionStorage | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
