@@ -46,15 +46,42 @@ console.log(nombre); // Resultado: 'Juan'
 console.log(edad); // Resultado: 30
 ```
 
-### Asignación con Alias
+### Asignación con variables
 
-Es posible asignar valores a variables con nombres diferentes utilizando la sintaxis de alias.
+Es posible asignar valores a variables con nombres diferentes.
 
 ```javascript
 const { nombre: n, edad: e } = persona;
 
 console.log(n); // Resultado: 'Juan'
 console.log(e); // Resultado: 30
+```
+
+## Desestructuración en Funciones
+
+La desestructuración es especialmente útil al manipular parámetros de funciones al pasar objetos o arrays y desestructurarlos directamente en la firma de la función.
+
+```javascript
+function mostrarInfo({ nombre, edad }) {
+  console.log(`Nombre: ${nombre}, Edad: ${edad}`);
+}
+
+const persona = { nombre: "Ana", edad: 25 };
+mostrarInfo(persona);
+```
+
+## Desestructuración para Intercambio de Variables
+
+La desestructuración hace que sea fácil intercambiar valores de variables sin necesidad de una variable temporal.
+
+```javascript
+let x = 1;
+let y = 2;
+
+[x, y] = [y, x];
+
+console.log(x); // Resultado: 2
+console.log(y); // Resultado: 1
 ```
 
 ## Aplicaciones Comunes
