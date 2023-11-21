@@ -52,3 +52,4 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | ----------------------------------------- | --------------- | ---------------------------------------------------------- |
 | [Clase 1](JSAdv/clases/sprint5/clase1.md) | Destructuring   | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
 | [Clase 2](JSAdv/clases/sprint5/clase2.md) | Spread operator | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
+| [Clase 3](JSAdv/clases/sprint5/clase3.md) | forEach         | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
