@@ -61,4 +61,4 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | Teoría                                    | Contenido             | Ejercicios                                                 |
 | ----------------------------------------- | --------------------- | ---------------------------------------------------------- |
 | [Clase 1](JSAdv/clases/sprint6/clase1.md) | Asincronía y promesas | [Ejercicios](JSAdv/ejercicios/sprint6/ejerciciosJsAdv4.md) |
-| [Clase 2](JSAdv/clases/sprint5/clase2.md) | Async/Await           | [Ejercicios](JSAdv/ejercicios/sprint6/ejerciciosJsAdv4.md) |
+| [Clase 2](JSAdv/clases/sprint6/clase2.md) | Async/Await           | [Ejercicios](JSAdv/ejercicios/sprint6/ejerciciosJsAdv4.md) |
