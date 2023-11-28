@@ -55,3 +55,10 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | [Clase 3](JSAdv/clases/sprint5/clase3.md) | forEach                         | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
 | [Clase 4](JSAdv/clases/sprint5/clase4.md) | localStorage y sessionStorage   | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
 | [Clase 5](JSAdv/clases/sprint5/clase5.md) | Métodos objeto, número y string | [Ejercicios](JSAdv/ejercicios/sprint5/ejerciciosJsAdv3.md) |
+
+### JS Avanzado | Sprint 6
+
+| Teoría                                    | Contenido             | Ejercicios                                                 |
+| ----------------------------------------- | --------------------- | ---------------------------------------------------------- |
+| [Clase 1](JSAdv/clases/sprint6/clase1.md) | Asincronía y promesas | [Ejercicios](JSAdv/ejercicios/sprint6/ejerciciosJsAdv4.md) |
+| [Clase 2](JSAdv/clases/sprint5/clase2.md) | Async/Await           | [Ejercicios](JSAdv/ejercicios/sprint6/ejerciciosJsAdv4.md) |
