@@ -62,3 +62,27 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | ----------------------------------------- | --------------------- | ---------------------------------------------------------- |
 | [Clase 1](JSAdv/clases/sprint6/clase1.md) | Asincronía y promesas | [Ejercicios](JSAdv/ejercicios/sprint6/ejerciciosJsAdv4.md) |
 | [Clase 2](JSAdv/clases/sprint6/clase2.md) | Async/Await           | [Ejercicios](JSAdv/ejercicios/sprint6/ejerciciosJsAdv4.md) |
+
+## Entregables resueltos
+
+### Sprint 4
+
+- [Developflix](https://github.com/CarlosDiazGirol/developflix-resuelto)
+- [Rick y Morty](https://github.com/CarlosDiazGirol/rick-and-morty-characters-resuelto)
+- [Team Challenge Select Pokémon](https://github.com/CarlosDiazGirol/select-pokemon-resuelto)
+
+### Sprint 5
+
+- [Usuarios](https://github.com/CarlosDiazGirol/users)
+- [Page visit](https://github.com/CarlosDiazGirol/pagesvisit-resolve)
+- [Team Challenge Chistes de Chuck Norris](https://github.com/CarlosDiazGirol/chuckListJoke)
+
+### Sprint 6
+
+- [Bomba Game](https://github.com/CarlosDiazGirol/boom-resolve)
+- [Diversión con banderas](https://github.com/CarlosDiazGirol/diversionconbanderas)
+- [Team Challenge Pokédex](https://github.com/CarlosDiazGirol/pokedex)
+
+### Sprint 7
+
+- [Modo oscuro](https://github.com/CarlosDiazGirol/dark-mode)
