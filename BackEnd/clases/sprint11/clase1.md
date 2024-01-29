@@ -1,86 +1,115 @@
 # Express.js
 
-## Introducción
+## ¿Qué es Express.js?
 
-Express.js, o simplemente Express, es un marco de aplicación web de back-end para construir APIs RESTful con Node.js. Se lanzó como software libre y de código abierto bajo la licencia MIT. Está diseñado para construir aplicaciones web y APIs. Se le ha llamado el marco de servidor estándar de facto para Node.js.
+Express.js es un marco de aplicación web para Node.js, diseñado para simplificar el desarrollo de aplicaciones web y APIs. Es minimalista y flexible, proporcionando una serie de funciones y herramientas para construir aplicaciones web de manera rápida y sencilla.
 
-## Características
+## Características Principales
 
-### Enrutamiento Robusto
+### 1. **Manejo de Rutas:**
 
-Express.js proporciona un potente sistema de enrutamiento que te permite definir diferentes rutas para manejar rutas URL específicas. Puedes crear endpoints para diferentes métodos HTTP (GET, POST, PUT, DELETE) y ejecutar código específico cuando se recibe una solicitud coincidente.
+Express facilita la definición de rutas para manejar diversas solicitudes HTTP. Puedes responder a solicitudes GET, POST, PUT, DELETE y más.
 
 ```javascript
 const express = require("express");
 const app = express();
 
-// Manejo de solicitudes GET a la ruta raíz
+// Ruta básica
 app.get("/", (req, res) => {
-  res.send("¡Hola, Mundo!");
+  res.send("Hola, mundo!");
 });
 
-// Manejo de solicitudes POST a la ruta raíz
-app.post("/", (req, res) => {
-  res.send("¡Una solicitud POST recibida!");
-});
-
-// Escucha en el puerto 3000
-app.listen(3000, () => {
-  console.log("Aplicación escuchando en el puerto 3000");
+// Ruta con parámetros
+app.get("/usuario/:id", (req, res) => {
+  const userId = req.params.id;
+  res.send(`Detalles del usuario ${userId}`);
 });
 ```
 
-### HTTP Helpers de Alto Rendimiento
+### 2. Middlewares:
 
-Proporciona una serie de métodos de respuesta en el objeto de respuesta (res), como res.download(), res.end(), res.json(), res.send(), y res.status(). Estos helpers facilitan el manejo de las respuestas HTTP.
-
-```javascript
-app.get('/', (req, res) => {
-// Enviar una respuesta JSON
-res.json({ mensaje: '¡Hola, Mundo!' });
-});
-
-app.get('/descargar', (req, res) => {
-// Iniciar una descarga de archivo
-var file = \_\_dirname + '/descargar.txt';
-res.download(file);
-});
-```
-
-### Programación Asíncrona
-
-Es compatible con la programación asíncrona, permitiendo escribir código no bloqueante que puede manejar múltiples solicitudes simultáneamente. Esto es especialmente útil cuando estás realizando operaciones que consumen mucho tiempo, como leer archivos o consultar una base de datos.
+Express utiliza middlewares para procesar solicitudes antes de llegar a las rutas definidas. Pueden realizar tareas como el análisis de cuerpos de solicitud, autenticación, manejo de errores, etc.
 
 ```javascript
-app.get("/usuarios", async (req, res) => {
-  try {
-    // Supongamos que getUserList es una función que obtiene una lista de usuarios de una base de datos
-    const usuarios = await getUserList();
-    res.json(usuarios);
-  } catch (error) {
-    res.status(500).send(error);
-  }
-});
-```
-
-## Ejemplo de código
-
-El siguiente programa responderá a las solicitudes HTTP GET con el texto '¡Hola, tu solicitud ha sido recibida!', y escuchará el puerto en el que se está ejecutando el programa; Puerto 2000, en este caso.
-
-```javascript
-// Importar la biblioteca Express.
 const express = require("express");
-
-// Inicializando la aplicación.
 const app = express();
 
-// Obteniendo la solicitud de ruta y enviando la respuesta con texto
-app.get("/", (req, res) => {
-  res.send("¡Hola, tu solicitud ha sido recibida!");
+// Middleware de registro de tiempo
+app.use((req, res, next) => {
+  console.log(`Time: ${Date.now()}`);
+  next();
 });
 
-// Escuchar en el puerto 2000
-app.listen(2000, () => {
-  console.log("escuchando en http://localhost:2000");
+// Middleware de análisis de cuerpo
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Middleware de autenticación
+app.use((req, res, next) => {
+  // Lógica de autenticación
+  next();
+});
+```
+
+### 3. Plantillas de Vistas:
+
+Express es compatible con varios motores de plantillas (pug, ejs, handlebars, etc.), permitiendo la generación dinámica de HTML.
+
+```javascript
+app.set("view engine", "pug");
+
+app.get("/vista", (req, res) => {
+  res.render("mi_vista", { titulo: "Express.js" });
+});
+```
+
+### 4. Enrutamiento Modular:
+
+Express permite organizar el código de las rutas en módulos independientes, facilitando la gestión de rutas en aplicaciones grandes.
+
+```javascript
+// routes/usuarios.js
+const express = require("express");
+const router = express.Router();
+
+router.get("/", (req, res) => {
+  res.send("Lista de usuarios");
+});
+
+module.exports = router;
+
+// index.js
+const express = require("express");
+const usuariosRouter = require("./routes/usuarios");
+
+const app = express();
+app.use("/usuarios", usuariosRouter);
+```
+
+### 5. Manejo de Archivos Estáticos:
+
+Express puede servir archivos estáticos, como CSS, imágenes y JavaScript, de manera eficiente.
+
+```javascript
+app.use(express.static("public"));
+```
+
+## Instalación y Configuración
+
+Para empezar con Express.js, primero debes instalarlo utilizando npm:
+
+```bash
+npm install express
+```
+
+Luego, puedes crear una aplicación básica de Express:
+
+```javascript
+const express = require("express");
+const app = express();
+
+const puerto = 3000;
+app.listen(puerto, () => {
+  console.log(`Servidor escuchando en el puerto ${puerto}`);
 });
 ```
