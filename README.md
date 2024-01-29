@@ -92,10 +92,17 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 
 ### Back-End | Sprint 10
 
-| Teoría                                     | Contenido                  | Ejercicios                                                 |
-| ------------------------------------------ | -------------------------- | ---------------------------------------------------------- |
-| [Clase 1](JSAdv/clases/sprint10/clase1.md) | Primeros pasos con Node.js | [Ejercicios](JSAdv/ejercicios/sprint10/ejerciciosBack1.md) |
-| [Clase 2](JSAdv/clases/sprint10/clase2.md) | Servidor HTTP              | [Ejercicios](JSAdv/ejercicios/sprint10/ejerciciosBack1.md) |
+| Teoría                                       | Contenido                  | Ejercicios                                                   |
+| -------------------------------------------- | -------------------------- | ------------------------------------------------------------ |
+| [Clase 1](BackEnd/clases/sprint10/clase1.md) | Primeros pasos con Node.js | [Ejercicios](BackEnd/ejercicios/sprint10/ejerciciosBack1.md) |
+| [Clase 2](BackEnd/clases/sprint10/clase2.md) | Servidor HTTP              | [Ejercicios](BackEnd/ejercicios/sprint10/ejerciciosBack1.md) |
+
+### Back-End | Sprint 11
+
+| Teoría                                       | Contenido     | Ejercicios                                                   |
+| -------------------------------------------- | ------------- | ------------------------------------------------------------ |
+| [Clase 1](BackEnd/clases/sprint11/clase1.md) | Express.js    | [Ejercicios](BackEnd/ejercicios/sprint11/ejerciciosBack1.md) |
+| [Clase 2](BackEnd/clases/sprint11/clase2.md) | Servidor HTTP | [Ejercicios](BackEnd/ejercicios/sprint11/ejerciciosBack1.md) |
 
 ## Entregables resueltos
 
