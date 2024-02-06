@@ -24,6 +24,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
     - [Sprint 10](#back-end--sprint-10)
     - [Sprint 11](#back-end--sprint-11)
     - [Sprint 12](#back-end--sprint-12)
+    - [Sprint 13](#back-end--sprint-13)
 
 - [**Soluciones de entregables**](#entregables-resueltos)
 
@@ -36,6 +37,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
     - [Sprint 10](#sprint-10)
     - [Sprint 11](#sprint-11)
     - [Sprint 12](#sprint-12)
+    - [Sprint 13](#sprint-13)
 
 ## Contenidos
 
@@ -113,6 +115,13 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | [Clase 1](BackEnd/clases/sprint12/clase1.md) | API REST  | -          |
 | [Clase 2](BackEnd/clases/sprint12/clase2.md) | Scraping  | -          |
 
+### Back-End | Sprint 13
+
+| Teoría                                       | Contenido | Ejercicios |
+| -------------------------------------------- | --------- | ---------- |
+| [Clase 1](BackEnd/clases/sprint13/clase1.md) | AUTH0 JWT | -          |
+| [Clase 2](BackEnd/clases/sprint13/clase2.md) | CORS      | -          |
+
 ## Entregables resueltos
 
 ### Sprint 4
@@ -153,3 +162,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 - [API REST CRUD](https://github.com/CarlosDiazGirol/CRUD)
 - [Scraping](https://github.com/CarlosDiazGirol/scrap)
 - [Team Challenge Scraping y CRUD](https://github.com/CarlosDiazGirol/scrapchallenge)
+
+### Sprint 13
+
+- [Autenticación JWT con Express](https://github.com/CarlosDiazGirol/bcrypt)
