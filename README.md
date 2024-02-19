@@ -40,6 +40,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
     - [Sprint 12](#sprint-12)
     - [Sprint 13](#sprint-13)
     - [Sprint 14](#sprint-14)
+    - [Sprint 15](#sprint-15)
 
 ## Contenidos
 
@@ -129,8 +130,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | Teoría                                       | Contenido | Ejercicios |
 | -------------------------------------------- | --------- | ---------- |
 | [Clase 1](BackEnd/clases/sprint14/clase1.md) | SQL 1     | -          |
-
-|
+| [Clase 2](BackEnd/clases/sprint14/clase2.md) | SQL 2     | -          |
 
 ## Entregables resueltos
 
@@ -181,3 +181,9 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 
 - [Consultas y lectura](https://github.com/CarlosDiazGirol/sql-1)
 - [Relación de tablas](https://github.com/CarlosDiazGirol/sql-2)
+
+### Sprint 15
+
+- [Testing con Jest](https://stackblitz.com/edit/jest-challenge-resuelto?file=README.md)
+- [CRUD de Tasks con mongoose](https://github.com/CarlosDiazGirol/CRUD-resolve-mongoose)
+- [Creación de BD con mongoose y testing](https://github.com/TheBridge-FullStackDeveloper/team-challenge-mongoose-testing-solucion)
