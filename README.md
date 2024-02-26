@@ -27,6 +27,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
     - [Sprint 13](#back-end--sprint-13)
     - [Sprint 14](#back-end--sprint-14)
     - [Sprint 15](#back-end--sprint-15)
+    - [Sprint 16](#back-end--sprint-16)
 
 - [**Soluciones de entregables**](#entregables-resueltos)
 
@@ -42,6 +43,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
     - [Sprint 13](#sprint-13)
     - [Sprint 14](#sprint-14)
     - [Sprint 15](#sprint-15)
+    - [Sprint 16](#sprint-16)
 
 ## Contenidos
 
@@ -140,6 +142,12 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 | [Clase 1](BackEnd/clases/sprint15/clase1.md) | Jest               | -          |
 | [Clase 2](BackEnd/clases/sprint15/clase2.md) | MongoDB y Mongoose | -          |
 
+### Back-End | Sprint 16
+
+| Teoría                                       | Contenido | Ejercicios |
+| -------------------------------------------- | --------- | ---------- |
+| [Clase 1](BackEnd/clases/sprint16/clase1.md) | Swagger   | -          |
+
 ## Entregables resueltos
 
 ### Sprint 4
@@ -195,3 +203,7 @@ Aprenderás a programar Front-end y Back-end en JavaScript, el lenguaje más uti
 - [Testing con Jest](https://stackblitz.com/edit/jest-challenge-resuelto?file=README.md)
 - [CRUD de Tasks con mongoose](https://github.com/CarlosDiazGirol/CRUD-resolve-mongoose)
 - [Creación de BD con mongoose y testing](https://github.com/TheBridge-FullStackDeveloper/team-challenge-mongoose-testing-solucion)
+
+### Sprint 16
+
+- [Documentar CRUD de tareas con Swagger](https://github.com/TheBridge-FullStackDeveloper/ejercico-DB-mongoose-swagger-soluci-n)
